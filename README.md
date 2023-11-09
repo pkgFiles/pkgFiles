@@ -4,8 +4,8 @@
 </p>
 
 <p align= "center">
-  <img height= "200" src="https://github-readme-stats.vercel.app/api?username=pkgFiles&theme=merko&show_icons=true&include_all_commits=false" />
-  <img height= "200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pkgFiles&theme=merko&layout=compact" />
+  <img height= "150" src="https://github-readme-stats.vercel.app/api?username=pkgFiles&theme=merko&show_icons=true&include_all_commits=false" />
+  <img height= "150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pkgFiles&theme=merko&layout=compact" />
 </p>
 
 ```golang
