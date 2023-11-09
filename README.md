@@ -8,8 +8,6 @@
   <img height= "200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pkgFiles&theme=merko&layout=compact" />
 </p>
 
-<h2 align="center">About me</h2>
-
 ```golang
 import Foundation
 
