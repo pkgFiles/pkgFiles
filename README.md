@@ -1,16 +1,37 @@
-### Hi there 👋
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=200&size=35&pause=1000&color=00E1F7&center=true&random=false&width=1000&lines=%E2%98%85+Install+Package+Files;%5BSwift%5D+iOS+App%2FTweak+Developer;%5BAutoHotKey%5D+Windows+Developer" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=200&size=25&pause=500&color=DED2FF&center=true&random=false&width=1000&lines=Passion+for+Coding+%3C3" alt="Typing SVG" /></a>
 
-<!--
-**pkgFiles/pkgFiles** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align= "center">
+  <img height= "200" src="https://github-readme-stats.vercel.app/api?username=pkgFiles&theme=merko&show_icons=true&include_all_commits=false" />
+  <img height= "200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pkgFiles&theme=merko&layout=compact" />
+</p>
 
-Here are some ideas to get you started:
+<h2 align="center">About me</h2>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```golang
+import Foundation
+
+protocol Bio {
+    
+    func getUserInformation() -> [String: Any]
+}
+
+class GitHub: Bio {
+
+    static var shared = GitHub()
+    
+    func loadBio() {
+        let userInformations: [String: Any] = getUserInformation()
+        print(userInformations)
+    }
+    
+    func getUserInformation() -> [String: Any] {
+        return [
+            "1": "..."
+        ]
+    }
+}
+
+GitHub.shared.loadBio()
+
+```
