@@ -18,7 +18,7 @@ protocol Bio {
 
 class GitHub: Bio {
 
-    static var shared = GitHub()
+    static let shared = GitHub()
     
     func loadBio() {
         let userInformations: [String: Any] = getUserInformation()
