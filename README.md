@@ -27,7 +27,7 @@ class GitHub: Bio {
     
     func getUserInformation() -> [String: Any] {
         return [
-            "🙎🏼‍♂️": "[25/y] ♂︎",
+            "🙎🏼‍♂️": "[26/y] ♂︎",
             "📍": "Germany",
             "📝": "Developing iOS Apps/Tweaks and small Windows Tools"
         ]
